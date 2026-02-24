@@ -44,4 +44,5 @@ jobs:
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
           DATES: ${{ secrets.DATES }}
           RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
         run: python main.py

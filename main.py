@@ -8,7 +8,7 @@ message_header = "Subject:B-Day Reminder\n\nHey, just a heads up,\n"
 sender_email     = os.environ.get("SENDER_EMAIL")
 reciever_email   = os.environ.get("RECEIVER_EMAIL")
 sender_password  = os.environ.get("PASSWORD")
-date_url         = os.environ.get("DATE_URL")
+date_url         = os.environ.get("DATE")
 
 print("Starting")
 resp = r.get(date_url)

@@ -10,10 +10,6 @@ message_header = "Subject:B-Day Reminder\n\nHey, just a heads up,\n"
 #sender_password  = os.environ.get("PASSWORD")
 #date_url         = os.environ.get("DATE")
 
-sender_email = "test.email.af8b3@gmail.com"
-reciever_email = "test.email.af8b3@gmail.com"
-sender_password = "qfxu ootc ulys oxgf"
-date_url = "https://api.sheety.co/958f28b7e1d34536995ee3a6ee84df20/bdays/sheet1"
 
 print("Starting")
 resp = r.get(date_url)
